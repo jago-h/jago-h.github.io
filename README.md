@@ -1,7 +1,8 @@
 # about me
-Born and raised in a small Polish village, currently typing this text from Singapore, doing an exchange at world-class university - NUS, being extremly grateful for every opportunity life brings me. Looking forward for the next paths and challenges!  
-For longer than I care to rememeber, mathematics has been my passion, at some point computer science joined, with focus on AI (machine learning, CV and its future impacts on the society). My life goal is to share my knowledge, escpecially with those whose access is limited.   
-If I'm not in front of my laptop, you can either find me at tango milongas or somewhere in the wild, with my dog.
+Originating from a charming Polish village, I currently find myself finishing my short Singaporean adventure, heading back towards completing my bachelor degree in Amsterdam, under the MultiX lab. Grateful for the myriad opportunities that have come my way, I'm navigating this journey with a sense of excitement for what lies ahead.  
+My enduring passion for mathematics has been a constant companion throughout my academic endeavors, and at some point, I found myself diving headfirst into the captivating world of computer science, focusing particularly on the fascinating realms of AI—think machine learning, computer vision, and pondering the societal impacts of it all.    
+If I'm not in front of my laptop, you can either find me at tango milongas or somewhere in the wild, with my dog.  
+Beyond the academic hustle, my mission is to share knowledge, especially with those who may face barriers in accessing it. So, whether you're keen to discuss math, AI, or just swap tales of academic exploits, let's connect. Because let's face it, learning is more enjoyable when it comes with a side of camaraderie and a dash of fun!
 
 # research interest
 - affective computing
