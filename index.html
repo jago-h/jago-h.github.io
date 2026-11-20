@@ -1,69 +1,118 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jagoda Hanuszewicz — Bioacoustics & AI</title>
-    <link rel="stylesheet" href="main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>~ jagoda's pond ~ bioacoustics & other noises</title>
+  <meta name="description" content="Jagoda Hanuszewicz — AI researcher in bioacoustics. Frogs, dolphins, photos, books.">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="wrap">
 
-    <nav class="sticky-navbar">
-        <a href="index.html">Home</a>
-        <span>|</span>
-        <a href="writings.html">Writings</a>
-        <span>|</span>
-        <a href="videos.html">Projects</a>
-    </nav>
+  <header class="banner">
+    <h1><span class="wiggle">🐸</span> jagoda's pond <span class="bob">🐬</span></h1>
+    <div class="sub cursor" data-type="bioacoustics, machine learning & other noises"></div>
+  </header>
 
-    <main>
-        <section class="link-section">
-            <h2 class="link-section-title">Jagoda Hanuszewicz</h2>
-            <hr>
+  <div class="ticker"><span>
+    ~*~ welcome, traveller ~*~ you have reached the pond ~*~ listening to frogs & dolphins since forever ~*~ this site is under construction, forever ~*~ please wipe your feet ~*~
+  </span></div>
 
-            <p>
-                Artificial intelligence researcher interested in
-                bioacoustics, machine learning, and animal communication.
-            </p>
+  <div class="layout">
 
-            <p>
-                I work with acoustic data to understand the sounds
-                of wildlife, particularly frogs and dolphins.
-                My work combines deep learning, audio processing,
-                and ecological research.
-            </p>
-
-            <p>
-                I am currently working on marine mammal acoustics
-                at the Acoustic Research Laboratory, National
-                University of Singapore.
-            </p>
-
-            <p>
-                My interests include bioacoustics, biodiversity,
-                artificial intelligence, field research, and
-                the intersection of technology and nature.
-            </p>
-
-            <p>
-                Contact: <a href="mailto:jagoda.hanuszewicz@gmail.com">
-                jagoda dot hanuszewicz affe gmail dot com</a>
-            </p>
-        </section>
-
-        <section class="link-section social-section">
-            <h2 class="link-section-title">Explore my work</h2>
-            <hr>
-
-            <ul class="link-list">
-                <li><a href="writings.html">Research & writings</a></li>
-                <li><a href="videos.html">Projects & experiments</a></li>
-                <li><a href="https://github.com/jago-h">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/jagoda-hanuszewicz/">LinkedIn</a></li>
+    <!-- ===== sidebar ===== -->
+    <aside>
+      <div class="box">
+        <div class="title">rooms</div>
+        <div class="inner">
+          <nav class="rooms">
+            <ul>
+              <li><a href="index.html" class="here">home</a></li>
+              <li><a href="research.html">research</a></li>
+              <li><a href="photos.html">photography</a></li>
+              <li><a href="shelf.html">bookshelf</a></li>
             </ul>
-        </section>
-    </main>
+          </nav>
+        </div>
+      </div>
 
+      <div class="box">
+        <div class="title">status</div>
+        <div class="inner">
+          <dl class="status">
+            <dt>time in singapore</dt>
+            <dd id="sg-clock">--:--:--</dd>
+            <dt>currently listening to</dt>
+            <dd>dolphin whistles</dd>
+            <dt>mood</dt>
+            <dd>🌊 tidal</dd>
+          </dl>
+        </div>
+      </div>
+    </aside>
+
+    <!-- ===== main ===== -->
+    <main>
+      <div class="box">
+        <div class="title">hello.txt</div>
+        <div class="inner">
+          <h2>hi, i'm jagoda <span class="blink">✦</span></h2>
+          <p>
+            I'm an AI researcher working on <b>bioacoustics</b> &mdash; teaching machines
+            to listen to animals. Most of my time goes into recordings of
+            <span style="color:var(--frog)">frogs</span> and
+            <span style="color:var(--sea)">dolphins</span>, somewhere between deep learning,
+            audio processing and ecology.
+          </p>
+          <p>
+            Right now I'm working on marine mammal acoustics at the
+            Acoustic Research Laboratory, National University of Singapore.
+          </p>
+          <p>
+            This is my little corner of the internet. There's a room for my
+            <a href="research.html">research</a>, one for <a href="photos.html">photos</a>
+            I've taken, and a <a href="shelf.html">bookshelf</a> of things I've read,
+            watched and loved. Make yourself at home.
+          </p>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="title">hydrophone_live.exe</div>
+        <div class="inner">
+          <canvas class="scope" aria-label="animated spectrogram"></canvas>
+          <p class="small">
+            ↑ a pretend live spectrogram. the wiggly lines are dolphin-ish whistles,
+            the stacked dashes are frog-ish croaks. (real ones coming soon.)
+          </p>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="title">elsewhere</div>
+        <div class="inner">
+          <ul class="stars">
+            <li><a href="https://github.com/jago-h">github</a> &mdash; code &amp; experiments</li>
+            <li><a href="#">linkedin</a> &mdash; the serious version of me</li>
+            <li>email: <i>your (dot) name (at) somewhere (dot) com</i></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <div class="buttons">
+    <a class="btn88 a" href="research.html">frog<br>approved</a>
+    <a class="btn88 b" href="research.html">listen to<br>the ocean</a>
+    <span class="btn88 c">under<br>construction</span>
+    <span class="btn88 d">made with<br>notepad</span>
+  </div>
+
+  <footer class="footer">
+    last updated: nov 2026 &middot; best viewed with headphones on
+  </footer>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
